@@ -1,6 +1,6 @@
 Pre-condition: make sure the appication under test is up and running in the localhost
 
-1. navigate to the 'cypress-test-suite' folder 
+1. navigate to the 'modusCreate-budgeting-cypress-test-suite folder 
 
 2. npm install
 
@@ -15,4 +15,4 @@ Pre-condition: make sure the appication under test is up and running in the loca
 - npm run cypress:run (Cypress test runner opens up and tests are executed automatically, progress and results can be seen in the terminal)
 
 3(c). To run the test in non-gui mode (headless) along with html report generation
-- npm run cypress:run:report (Cypress test runner opens up and tests are executed automatically, progress and results can be seen in the terminal. Once test suite executio is complete, html report for the current run can be found in 'cypress-test-suite > mochawesome-report > TestReport_<currentDateTime>.html')
+- npm run cypress:run:report (Cypress test runner opens up and tests are executed automatically, progress and results can be seen in the terminal. Once test suite executio is complete, html report for the current run can be found in 'modusCreate-budgeting-cypress-test-suite > mochawesome-report > TestReport_<currentDateTime>.html')
