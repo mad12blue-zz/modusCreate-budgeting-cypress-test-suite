@@ -1,12 +1,9 @@
-// we decided to not use this pattern anymore since for some reason it messes up the watcher functionality on linux
-// const {given} = require('cypress-cucumber-preprocessor')
-
 const miscUtils = require('../utilities/misc.utils');
 const dataUtils = require('../utilities/data.utils');
 const budgetUtils = require('../utilities/budget.utils');
 const reportUtils = require('../utilities/report.utils');
 
-// GIVEN
+// GIVEN's
 
 given('I open Budgeting page', () => {
   miscUtils.visitUrl(dataUtils.PAGE_URL);
@@ -20,15 +17,11 @@ given('I am on {string} view', tabName => {
   budgetUtils.verifyTabSelected(tabName);
 });
 
-// WHEN
+// WHEN's
 
 when('I goto {string} view of Budget management', tabName => {
   budgetUtils.selectTab(tabName);
 });
-
-// when('I select {string} from category dropdown', (type) => {
-//   budgetUtils.selectCategory(type);
-// });
 
 when('I select {string} from category dropdown', category => {
   budgetUtils.selectCategory(category);
@@ -47,7 +40,7 @@ when('I hit the add button', () => {
 });
 
 
-// THEN
+// THEN's
 
 then(`I see {string} in the title`, title => {
   miscUtils.verifyPageLoad(title);

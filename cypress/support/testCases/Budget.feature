@@ -28,7 +28,7 @@ Feature: Manage Budget in the Budget management app
     Then I see "Reports" view load
     Then I see sum of "Expense" amount equals total "Outflow" bar
 
-  Scenario: Verify the Working Balance in the Budget view of budget management
+  Scenario: Verify the Working Balance in the Budget view of budget management (This test case fails since the 'Working Balance' doesn't display value in red and negative when TotalOutflow is greater than TotalInflow)
     Given I am on Budget management app
     When I goto "Budget" view of Budget management
     Then I see "Buget" view load

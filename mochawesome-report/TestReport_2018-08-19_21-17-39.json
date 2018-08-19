@@ -5,9 +5,9 @@
     "passes": 4,
     "pending": 0,
     "failures": 1,
-    "start": "2018-08-19T14:44:58.151Z",
-    "end": "2018-08-19T14:45:07.881Z",
-    "duration": 9730,
+    "start": "2018-08-19T15:47:47.719Z",
+    "end": "2018-08-19T15:47:57.074Z",
+    "duration": 9355,
     "testsRegistered": 5,
     "passPercent": 80,
     "pendingPercent": 0,
@@ -19,7 +19,7 @@
     "pendingPercentClass": "danger"
   },
   "suites": {
-    "uuid": "149d0ec6-0c57-47e7-b521-8b8686b5c8d4",
+    "uuid": "a67e908f-56c8-41cb-ba8b-f6635b5ae1f1",
     "title": "",
     "fullFile": "",
     "file": "",
@@ -28,7 +28,7 @@
     "tests": [],
     "suites": [
       {
-        "uuid": "9a4a9c87-5acd-4aeb-ae0c-97be4613c5ed",
+        "uuid": "34f705be-011a-4720-9ac1-9cb93ada34d8",
         "title": "Manage Budget in the Budget management app",
         "fullFile": "",
         "file": "",
@@ -38,7 +38,7 @@
           {
             "title": "Opening budget management app page",
             "fullTitle": "Manage Budget in the Budget management app Opening budget management app page",
-            "duration": 1478,
+            "duration": 1283,
             "state": "passed",
             "speed": "slow",
             "pass": true,
@@ -47,14 +47,14 @@
             "code": "if (backgroundSection) {\n  backgroundSection.steps.forEach(stepTest);\n}\nscenario.steps.forEach(step => stepTest(step));",
             "err": {},
             "isRoot": false,
-            "uuid": "d74e3eab-5d14-4663-85eb-cfffdb5e80ad",
+            "uuid": "b4778da5-436c-45b9-a62e-8b9cf6e948e8",
             "isHook": false,
             "skipped": false
           },
           {
             "title": "Add Income in the budget",
             "fullTitle": "Manage Budget in the Budget management app Add Income in the budget",
-            "duration": 1199,
+            "duration": 1188,
             "state": "passed",
             "speed": "slow",
             "pass": true,
@@ -63,14 +63,14 @@
             "code": "if (backgroundSection) {\n  backgroundSection.steps.forEach(stepTest);\n}\nscenario.steps.forEach(step => stepTest(step));",
             "err": {},
             "isRoot": false,
-            "uuid": "dbc4b5f8-6fc5-4691-98d1-42434119cb8c",
+            "uuid": "1a700ad0-f69a-4205-b978-50afa2b29ce7",
             "isHook": false,
             "skipped": false
           },
           {
             "title": "Add Expense in the budget",
             "fullTitle": "Manage Budget in the Budget management app Add Expense in the budget",
-            "duration": 1158,
+            "duration": 1124,
             "state": "passed",
             "speed": "slow",
             "pass": true,
@@ -79,14 +79,14 @@
             "code": "if (backgroundSection) {\n  backgroundSection.steps.forEach(stepTest);\n}\nscenario.steps.forEach(step => stepTest(step));",
             "err": {},
             "isRoot": false,
-            "uuid": "7d20a43c-9c6b-45df-b5df-1703c1a6a391",
+            "uuid": "da805df5-0449-4b02-a79b-1624ca80df68",
             "isHook": false,
             "skipped": false
           },
           {
             "title": "Verify expenses in the Reports view of budget management",
             "fullTitle": "Manage Budget in the Budget management app Verify expenses in the Reports view of budget management",
-            "duration": 216,
+            "duration": 214,
             "state": "passed",
             "speed": "slow",
             "pass": true,
@@ -95,42 +95,42 @@
             "code": "if (backgroundSection) {\n  backgroundSection.steps.forEach(stepTest);\n}\nscenario.steps.forEach(step => stepTest(step));",
             "err": {},
             "isRoot": false,
-            "uuid": "04a17968-95fa-424c-921a-eef6392c2653",
+            "uuid": "37775129-173d-4721-85b3-2ead2c319b4b",
             "isHook": false,
             "skipped": false
           },
           {
-            "title": "Verify the Working Balance in the Budget view of budget management",
-            "fullTitle": "Manage Budget in the Budget management app Verify the Working Balance in the Budget view of budget management",
-            "duration": 4259,
+            "title": "Verify the Working Balance in the Budget view of budget management (This test case fails since the 'Working Balance' doesn't display value in red and negative when TotalOutflow is greater than TotalInflow)",
+            "fullTitle": "Manage Budget in the Budget management app Verify the Working Balance in the Budget view of budget management (This test case fails since the 'Working Balance' doesn't display value in red and negative when TotalOutflow is greater than TotalInflow)",
+            "duration": 4249,
             "state": "failed",
             "pass": false,
             "fail": true,
             "pending": false,
             "code": "if (backgroundSection) {\n  backgroundSection.steps.forEach(stepTest);\n}\nscenario.steps.forEach(step => stepTest(step));",
             "err": {
-              "message": "CypressError: Timed out retrying: Expected to find element: '1', but never found it. Queried from element: <div.components-Balance-style-balanceAmount.components-Balance-style-neg>",
-              "estack": "CypressError: Timed out retrying: Expected to find element: '1', but never found it. Queried from element: <div.components-Balance-style-balanceAmount.components-Balance-style-neg>\n    at Object.cypressErr (http://localhost:3000/__cypress/runner/cypress_runner.js:67594:11)\n    at Object.throwErr (http://localhost:3000/__cypress/runner/cypress_runner.js:67559:18)\n    at Object.throwErrByPath (http://localhost:3000/__cypress/runner/cypress_runner.js:67586:17)\n    at retry (http://localhost:3000/__cypress/runner/cypress_runner.js:61339:16)\n    at http://localhost:3000/__cypress/runner/cypress_runner.js:53457:18\n    at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:6846:23)\n    at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:4868:31)\n    at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:4925:18)\n    at Promise._settlePromise0 (http://localhost:3000/__cypress/runner/cypress_runner.js:4970:10)\n    at Promise._settlePromises (http://localhost:3000/__cypress/runner/cypress_runner.js:5045:18)\n    at Async._drainQueue (http://localhost:3000/__cypress/runner/cypress_runner.js:1778:16)\n    at Async._drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:1788:10)\n    at Async.drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:1662:14)\n    at <anonymous>"
+              "message": "Error: ENAMETOOLONG: name too long, open '/Users/madhan/TreeView/ModusCreate/modusCreate-budgeting-cypress-test-suite/cypress/screenshots/testsuite.spec.js/Manage Budget in the Budget management app -- Verify the Working Balance in the Budget view of budget management (This test case fails since the Working Balance doesnt display value in red and negative when TotalOutflow is greater than TotalInflow) (failed).png'",
+              "estack": "Error: ENAMETOOLONG: name too long, open '/Users/madhan/TreeView/ModusCreate/modusCreate-budgeting-cypress-test-suite/cypress/screenshots/testsuite.spec.js/Manage Budget in the Budget management app -- Verify the Working Balance in the Budget view of budget management (This test case fails since the Working Balance doesnt display value in red and negative when TotalOutflow is greater than TotalInflow) (failed).png'\n\n"
             },
             "isRoot": false,
-            "uuid": "934f4af6-cb42-46f9-86ba-1dd3bd174c4c",
+            "uuid": "ecef654e-d2af-4dff-8782-a21c13a50d62",
             "isHook": false,
             "skipped": false
           }
         ],
         "suites": [],
         "passes": [
-          "d74e3eab-5d14-4663-85eb-cfffdb5e80ad",
-          "dbc4b5f8-6fc5-4691-98d1-42434119cb8c",
-          "7d20a43c-9c6b-45df-b5df-1703c1a6a391",
-          "04a17968-95fa-424c-921a-eef6392c2653"
+          "b4778da5-436c-45b9-a62e-8b9cf6e948e8",
+          "1a700ad0-f69a-4205-b978-50afa2b29ce7",
+          "da805df5-0449-4b02-a79b-1624ca80df68",
+          "37775129-173d-4721-85b3-2ead2c319b4b"
         ],
         "failures": [
-          "934f4af6-cb42-46f9-86ba-1dd3bd174c4c"
+          "ecef654e-d2af-4dff-8782-a21c13a50d62"
         ],
         "pending": [],
         "skipped": [],
-        "duration": 8310,
+        "duration": 8058,
         "root": false,
         "rootEmpty": false,
         "_timeout": 2000
